@@ -12,20 +12,6 @@ use \Datetime;
 use \DateInterval;
 use \DateTimeZone;
 
-/*
-use App\QuickBooks;
-use App\QbToken;
-use App\PriceLevels;
-use App\Orders;
-use App\OrderLines;
-use App\ItemsInOrders;
-use App\PriceListHeader;
-use App\PriceListLines;
-use App\QbItemsIds;
-use App\Searches;
-use App\SearchesDates;
-*/
-
 class Inventory extends Model
 {
     //

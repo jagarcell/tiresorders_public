@@ -33,7 +33,6 @@
 					<th class="firstCol">User</th>
 					<th class="secondCol">Email</th>	
 					<th class="fourthCol">Price Level</th>
-					<!--th class="fourthCol">Price List</th-->
 					<th class="fifthCol">Type</th>
 				</tr>
 				</thead>
@@ -133,9 +132,6 @@
 			<div id="emailVerifyButton" class="userFieldDiv emailVerifyButtonDiv">
 				<input id="resendButton" type="button" class="actionButton" value="RESEND VERIFY EMAIL">
 			</div>
-			<!--div class="userFieldDiv passwdResetDiv">
-				<input id="passwdResetButton" type="button" class="actionButton passwdResetButton" value="PASSWD RESET">
-			</div-->
 			<div class="userFieldDiv saveButton">
 				<input id="deleteUserButton"  type="button" class="actionButton minWidth" value="DELETE USER">
 				<input id="saveButton" type="button" class="actionButton minWidth" value="SAVE CHANGES">

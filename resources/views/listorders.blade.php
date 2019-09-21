@@ -57,9 +57,6 @@
 				<div class="statusDiv"><input type="checkbox" id="delivery" value="delivery" class="statusCheck individualStatus"> Delivery</div>
 				<div class="statusDiv"><input type="checkbox" id="invoiced" value="invoiced" class="statusCheck individualStatus"> Invoiced</div>
 			</div>
-			<!--div class="refreshButton">
-				<input type="button" id="refreshButton" class="actionButton" value="REFRESH ORDERS">
-			</div-->
 		</div>
 	</div>
 
@@ -126,9 +123,6 @@
 		<div>
 			<input id="sendInvoice" type="button" value="Send To Invoice" class="actionButton invoiceButton">
 		</div>
-		<!--div>
-			<input id="deleteOrder" type="button" value="Delete" class="actionButton deleteOrderButton">
-		</div-->
 	</div>
 </div>
 @endsection

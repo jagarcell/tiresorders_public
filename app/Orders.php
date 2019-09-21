@@ -8,10 +8,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 
-use App\Users;
-use App\Inventory;
-use App\QuickBooks;
-use App\OrderLines;
 use App\Mail\PurchaseOrder;
 
 class Orders extends Model

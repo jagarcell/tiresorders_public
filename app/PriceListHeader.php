@@ -7,10 +7,6 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
-use App\PriceListLines;
-use App\Inventory;
-use App\Users;
-
 class PriceListHeader extends Model
 {
     //

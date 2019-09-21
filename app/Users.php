@@ -7,14 +7,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
-use App\QuickBooks;
-use App\PriceLevels;
-use App\User;
-use App\Orders;
-use App\OrderLines;
-use App\QbCustomers;
-use App\PriceListHeader;
-
 class Users extends Model
 {
     //
@@ -162,7 +154,6 @@ class Users extends Model
                 [
                     'name' => $name,
                     'address' => $address,
-//                    'email' => $email,
                     'phone' => $phone,
                     'pricelevels_id' => $pricelevels_id,
                     'qb_customer_id' => $qb_customer_id,

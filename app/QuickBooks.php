@@ -141,7 +141,6 @@ class QuickBooks extends Model
                     $companyName = $companyInfo['CompanyName'];
                     session('companyName', $companyName);
                     return redirect('/');
-//                    return view('welcome', ['companyName' => $companyName,]);
                     break;
             }
         }
@@ -216,13 +215,7 @@ class QuickBooks extends Model
             return ['authUrl' => $authUrl];
         }
 
-//        DB::delete('delete from inventories');
         DB::table('inventories')->truncate();
-        try {
-//            DB::select("ALTER TABLE inventories AUTO_INCREMENT = 1");
-        } catch (\Exception $e) {
-            
-        }
 
         $QbInventory = $dataService->query("SELECT * FROM Item");
 
